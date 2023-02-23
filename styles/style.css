@@ -1,0 +1,125 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: #333;
+}
+
+#particles-js {
+  width: 100%;
+  height: 100vh;
+  background: #333;
+  position: relative;
+}
+
+.posicionInicio {
+  position: absolute;
+  top: 0;
+  margin-top: 100px;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.informacion {
+  display: flex;
+  align-items: center;
+}
+@media only screen and (max-width: 850px) {
+  .informacion {
+    display: grid;
+    place-items: center;
+  }
+}
+.informacion .card {
+  color: #000;
+}
+.informacion .datos {
+  width: 265.1px;
+  height: 180px;
+  padding: 10px;
+  margin-left: 10px;
+  border-radius: 5px;
+  background-color: #fff;
+  color: #000;
+}
+@media only screen and (max-width: 850px) {
+  .informacion .datos {
+    margin-top: -5px;
+    z-index: 1;
+    width: 288px;
+    margin-left: 0px;
+    border-radius: 0px 0px 5px 5px;
+  }
+}
+.informacion .contacto {
+  width: 265.1px;
+  height: 340px;
+  padding: 10px;
+  margin-left: 10px;
+  border-radius: 5px;
+  background-color: #fff;
+  color: #000;
+}
+@media only screen and (max-width: 850px) {
+  .informacion .contacto {
+    margin-top: -5px;
+    z-index: 1;
+    width: 288px;
+    margin-left: 0px;
+    border-radius: 0px 0px 5px 5px;
+  }
+}
+
+.posicionEstudios {
+  position: absolute;
+  top: 0;
+  margin: 100px 0px 20px 0px;
+  left: calc(50% - 155px);
+}
+
+.contenedor {
+  width: 310px;
+}
+.contenedor .conteFlex {
+  margin: 10px;
+  background-color: #fff;
+  border-radius: 5px;
+  border: 1px solid #000;
+  display: flex;
+  align-items: center;
+}
+.contenedor .conteFlex h5, .contenedor .conteFlex h6 {
+  flex-grow: 1;
+  padding: 10px;
+}
+.contenedor .conteFlex .btn {
+  min-width: 82.55px;
+}
+
+.posicionExperiencia {
+  position: absolute;
+  top: 0;
+  margin: 100px 0px 20px 0px;
+  left: calc(50% - 155px);
+}
+
+.contenedor {
+  width: 310px;
+}
+.contenedor .conteFlex {
+  margin: 10px;
+  background-color: #fff;
+  border-radius: 5px;
+  border: 1px solid #000;
+  display: flex;
+  align-items: center;
+}
+.contenedor .conteFlex h6 {
+  flex-grow: 1;
+  padding: 10px;
+}
+.contenedor .conteFlex .btn {
+  min-width: 82.55px;
+}/*# sourceMappingURL=style.css.map */
